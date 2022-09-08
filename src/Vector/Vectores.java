@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class Vectores {
     public static void main(String[] args) {
-        Vector<Integer> num = new Vector();
+        Vector<Integer> num = new Vector<>();
 
         //5 Elementos
         num.add(1);
@@ -29,8 +29,8 @@ public class Vectores {
          * que cada vez que se sobrepase ese valor se creará un nuevo Vector
          * de la capacidad anterior + 10. Y así sucesivamente hasta llegar a mil.
          * Con esto tendríamos el último vector que ha ido de copia en copia...
-         * unas 100 veces hasta completarlo. Esto generaría un gasto incleible en
-         * memoria que se podría evitar cambiando la capacidad del  vector
+         * unas 100 veces hasta completarlo. Esto generaría un gasto increíble en
+         * memoria que se podría evitar cambiando la capacidad del vector
          * desde el principio.
          */
 
