@@ -5,22 +5,17 @@ import java.util.LinkedList;
 
 public class CopiaArrayL {
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         ArrayList<String> nombres = new ArrayList<>();
-=======
-        ArrayList<String> nombres = new ArrayList<String>();
->>>>>>> origin/master
 
         nombres.add("Aida");
         nombres.add("Maia");
         nombres.add("Marta");
         nombres.add("Laura");
 
-<<<<<<< HEAD
+
         LinkedList<String> nombresLinked = new LinkedList<>();
-=======
-        LinkedList<String> nombresLinked = new LinkedList<String>();
->>>>>>> origin/master
+
         //recorrer y copiar en LinkedList
         for (String n : nombres) {
             nombresLinked.add(n);
